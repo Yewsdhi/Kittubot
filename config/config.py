@@ -26,7 +26,7 @@ CLEANMODE_DELETE_MINS = int(
 
 # Custom max audio(music) duration for voice chat. set DURATION_LIMIT in variables with your own time(mins), Default to 60 mins.
 DURATION_LIMIT_MIN = int(
-    getenv("DURATION_LIMIT", 300)
+    getenv("DURATION_LIMIT", 1700)
 )  # Remember to give value in Minutes
 
 
@@ -56,7 +56,7 @@ LOGGER_ID = int(getenv("LOGGER_ID", None))
 
 # Your User ID.
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", 6399386263).split())
+    map(int, getenv("OWNER_ID", 1384525218).split())
 )  # Input type must be interger
 
 ## Fill these variables if you're deploying on heroku.
@@ -76,10 +76,10 @@ GIT_TOKEN = getenv(
 
 # Only  Links formats are  accepted for this Var value.
 SUPPORT_CHANNEL = getenv(
-    "SUPPORT_CHANNEL", "https://t.me/akaChampu"
+    "SUPPORT_CHANNEL", "https://t.me/ll_DPZ_WORLDS_ll"
 )  # Example:- https://t.me/akaChampu
 SUPPORT_GROUP = getenv(
-    "SUPPORT_GROUP", "https://t.me/TheChampuClub"
+    "SUPPORT_GROUP", "https://t.me/queenbotgrup"
 )  # Example:- https://t.me/TheChampuClub
 # Set it in True if you want to leave your assistant after a certain amount of time. [Set time via AUTO_LEAVE_ASSISTANT_TIME]
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", True)
